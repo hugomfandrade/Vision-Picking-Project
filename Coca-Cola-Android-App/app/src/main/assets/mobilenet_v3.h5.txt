@@ -1,0 +1,10 @@
+coca_cola_1,75L
+coca_cola_1L
+coca_cola_330
+coca_light_330
+coca_zero_330
+coca_zero_cafeina_330
+fanta_330
+no_class
+sprite_2L
+sprite_330

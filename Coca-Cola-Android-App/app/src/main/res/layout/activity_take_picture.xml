@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/rect">
+
+    <com.google.android.cameraview.CameraView
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true"
+        android:adjustViewBounds="true"
+        android:background="@android:color/black" />
+
+    <Button
+        android:id="@+id/bt_take_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:text="start"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textColor="#fff"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold" >
+
+
+        <requestFocus/>
+
+    </Button>
+
+</RelativeLayout>

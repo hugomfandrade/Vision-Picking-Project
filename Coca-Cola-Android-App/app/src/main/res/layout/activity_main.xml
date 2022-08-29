@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/rect">
+
+    <com.google.android.cameraview.CameraView
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:background="@android:color/black">
+
+        <requestFocus/>
+
+    </com.google.android.cameraview.CameraView>
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#000"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textAllCaps="true"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <include layout="@layout/layout_progress_bar"/>
+
+</RelativeLayout>
